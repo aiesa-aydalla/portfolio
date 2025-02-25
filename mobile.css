@@ -1,0 +1,123 @@
+@media screen and (max-width: 768px){
+    
+    body {
+        width: 100%;
+    }
+
+    /* NAVBAAAAAAAAAAAAAAAAAR */
+
+    .navbar {
+        display: none;
+    }
+
+    .mobile-navbar-btn {
+        display: flex;
+    }
+
+    .mobile-navbar-btn img {
+        display: 50px;
+        position: absolute;
+        top: 20px;
+        right: 100px;
+        width: 40px;
+        cursor: pointer;
+    }
+
+    .mobile-navbar img {
+        display: 50px;
+        position: absolute;
+        top: 15px;
+        right: 70px;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .mobile-navbar {
+        position: fixed;
+        top: 0;
+        right: 0%;
+        width: 300px;
+        height: 100%;
+        background: plum;
+        z-index: 1000;
+        display: none;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 40px;
+        gap: 10;
+        transition: all ease-in-out;
+    }
+
+    .mobile-navbar.active {
+        display: flex;
+    }
+
+    .mobile-navbar a {
+        display: block;
+        padding: 10px;
+        color: purple;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        transition: .3s;
+    }
+
+    /* HOOOOME */
+
+    .home-image {
+        display: flex;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+    }
+
+    .home-image img {
+        position: relative;
+        max-width: 200px;
+    }
+
+    .home-content {
+        position: relative;
+        left: 20%;
+    }
+    .home-content h1 {
+        font-size: xx-large;
+    }
+
+    .home-content h3 {
+        font-size: x-large;
+    }
+
+    .home-content p {
+        font-size: medium;
+    }
+
+    /* ABOOOOOOOOOOOUT */
+
+    .about, .about-box{
+        padding: 50px 75px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .about img {
+        margin-left: -100px;
+
+    }
+
+    /* (no no) CONTAAAAAAAAAAACT */
+
+    .contact-info {
+        margin-bottom: 0px;
+    }
+
+    .form-control {
+        margin-right: 50;
+    }
+
+    .form-button {
+        display: flex;
+        margin-left: -10px;
+    }
+}

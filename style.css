@@ -52,6 +52,14 @@ html {
     color: violet;
 }
 
+.mobile-navbar-btn {
+    display: none;
+}
+
+.mobile-navbar {
+    display: none;
+}
+
 /* HOOOOOOOOOMEEEEEEEEEEE RATATATAH */
 
 .home {
@@ -87,7 +95,7 @@ html {
     margin-top: 50px;
     text-align: left;
     position: relative;
-    left: 8%;
+    left: 1%;
 }
 
 .home-content h1 {
@@ -222,7 +230,7 @@ html {
     flex-direction: column;
     text-align: left;
     gap: 2em;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .about-box h1 {
@@ -237,7 +245,6 @@ html {
 
 .about-box p {
     color: black;
-    opacity: 0.8;
     font-size: 20px;
 }
 
@@ -253,7 +260,6 @@ html {
     display: flex;
     flex-direction: column;
     color: black;
-    opacity: 0.8;
     align-items: left;
     list-style: none;
 }
@@ -282,15 +288,15 @@ html {
 }
 
 .section-title {
-    height: 80px;
     text-align: center;
+    padding: 50px 0;
+}
+
+.section-title h2 {
     font-size: 30px;
-    font-weight: 600;
-    background: linear-gradient(to right, rgb(197, 85, 107), purple);
+    background: linear-gradient(to right, purple, rgb(197, 85, 107));
     background-clip: text;
     color: transparent;
-    padding: 50px 0;
-    margin-bottom: 50px;
 }
 
 .experience-info {
